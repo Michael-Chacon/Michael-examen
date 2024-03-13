@@ -10,7 +10,7 @@ export class MainComponent extends HTMLElement {
     this.innerHTML = `
         <section class="main--main">
         <img class="img--main" src="storage/img/answer-1-1.png" alt="" />
-        <h1 class="titulo-main">Cuanto cuesta desarrollar mi app GBP</h1>
+        <h1 class="titulo--main">Cuanto cuesta desarrollar mi app GBP</h1>
         <p>
           Calcula de forma rápida el costo para crear tu app, contestando estas
           sencillas preguntas
@@ -205,7 +205,7 @@ export class SistemaAutenticacion extends HTMLElement {
   render() {
     this.innerHTML = `
             <section class="main--section">
-            <h2 class="titulo">¿Comó monetizar tu App?</h2>
+            <h2 class="titulo">¿Tu app necesita sistema de autenticación?</h2>
             <article class="seccion">
               <div class="seccion__card">
                 <img src="storage/img/answer-5-1.png" class="card__img" alt="" />
@@ -247,32 +247,32 @@ export class End extends HTMLElement {
   render() {
     this.innerHTML = `
     <section class="main--end">
-    <p class="nivel--uno">!Bien¡ Hemos terminado</p>
-    <h4 class="nivel--dos">!Compárte si te a gustado¡</h4>
-    <article class="redes">
-      <button class="red-social face">
-        <i class="bx bxl-facebook icono"></i>Share
-      </button>
-      <button class="red-social">
-        <i class="bx bxl-linkedin-square"></i>Share
-      </button>
-      <button class="red-social">
-        <i class="bx bxl-google-plus-circle"></i>Google +
-      </button>
-      <button class="red-social">
-        <i class="bx bxl-twitter"></i>Tweet
-      </button>
-    </article>
-    <h2 class="nivel--tres">El consto estimado de tu app es</h2>
-    <h1 class="titulo-main">55.500.000 COP</h1>
-    <a href="#" class="editar">Edita tu respuesta</a>
-    <p>
-      En GBP contamos con los mejores
-      <strong>desarrolladores de apps y webd</strong> para tu proyecto.
-      Publica tu proyecto en GBP
-    </p>
-    <button class="btnEmpezar">Terminar</button>
-  </section>
+        <p class="nivel--uno">!Bien¡ Hemos terminado</p>
+        <h4 class="nivel--dos">!Compárte si te a gustado¡</h4>
+        <article class="redes">
+          <button class="red-social face">
+            <i class="bx bxl-facebook icono"></i>Share
+          </button>
+          <button class="red-social linke">
+            <i class="bx bxl-linkedin-square"></i>Share
+          </button>
+          <button class="red-social google">
+            <i class="bx bxl-google-plus-circle"></i>Google +
+          </button>
+          <button class="red-social tw">
+            <i class="bx bxl-twitter"></i>Tweet
+          </button>
+        </article>
+        <h2 class="nivel--tres">El consto estimado de tu app es</h2>
+        <h1 class="precio">55.500.000 COP</h1>
+        <a href="#" class="editar nivel--uno">Edita tu respuesta</a>
+        <p class="nivel--uno">
+          En GBP contamos con los mejores
+          <strong>desarrolladores de apps y webd</strong> para tu proyecto.
+          Publica tu proyecto en GBP
+        </p>
+        <button class="btnEmpezar">Terminar</button>
+      </section>
                   `;
   }
   detectarClick() {

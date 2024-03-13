@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,9 @@
 
 body{
     color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 main{
@@ -23,9 +28,10 @@ main{
     align-items: center;
 }
 
-.titulo-main{
-    font-size: 3rem;
+.titulo--main{
+    font-size: 3.5rem;
 }
+
 .img--main{
     width: 200px;
 }
@@ -95,8 +101,13 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 35px;
+    row-gap: 30px;
     align-items: center;
+}
+
+.nivel--uno{
+    font-size: 1.1;
+    font-weight: 400;
 }
 
 .nivel--dos{
@@ -104,7 +115,7 @@ main{
 }
 
 .nivel--tres{
-    font-size: 1.8rem;
+    font-size: clamp(1rem, 5vw, 1.8rem);
 }
 
 .editar{
@@ -114,10 +125,26 @@ main{
 .red-social{
     padding: 3px 5px;
     color: white;
-    background-color: blue;
     border: none;
 }
 
-/* .icono{
-    color: white;
-} */
+.face{
+    background-color: blue;
+}
+
+.linke{
+    background-color: rgb(77, 92, 226);
+}
+
+.google{
+    background-color: red;
+}
+
+.tw{
+    background-color: #16b2dd;
+}
+
+.precio{
+    color: rgb(13, 219, 219);
+    font-size: clamp(2.5rem, 5vw, 5rem);
+}
